@@ -32,5 +32,5 @@ def get_largest_prime_factor(number):
 
 if __name__ == "__main__":
 	start_time = time.time()
-	print get_largest_prime_factor(6000851475143) 
+	print get_largest_prime_factor(600851475143) 
 	print "--- %s seconds ---" % (time.time() - start_time)
